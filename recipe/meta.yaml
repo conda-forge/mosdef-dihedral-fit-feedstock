@@ -42,7 +42,7 @@ about:
     (RB) torsion.
   license: MIT
   license_family: MIT
-  license_file: LICENSE.rst
+  license_file: LICENSE
   doc_url: https://github.com/GOMC-WSU/MoSDeF-dihedral-fit
   dev_url: https://github.com/GOMC-WSU/MoSDeF-dihedral-fit
 
