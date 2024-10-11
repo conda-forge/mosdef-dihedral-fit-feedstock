@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/GOMC-WSU/MoSDeF-dihedral-fit/archive/{{ version }}.tar.gz
-  sha256: 321272e79b1f86d44eef29b10f296edfd60de9faa9e0d4b4551ec4f898e2f69a
+  sha256: cb0de917a8924e7c154fbb45d391bd46a01fd77e3602072d31f2428afec6de28
 
 build:
   noarch: python
@@ -36,8 +36,10 @@ test:
 
 about:
   home: https://github.com/GOMC-WSU/MoSDeF-dihedral-fit
-  summary: An open-source, transparent, and lightweight Python software package capable of fitting dihedrals with QM calculations for existing forces fields. This software fits the Optimized Potentials for Liquid Simulations (OPLS) style dihedrals, then also analytically converts them to the periodic dihedral and Ryckaert-Bellemans (RB) torsion.
-  description: An open-source, transparent, and lightweight Python software package capable of fitting dihedrals with QM calculations for existing forces fields. This software fits the Optimized Potentials for Liquid Simulations (OPLS) style dihedrals, then also analytically converts them to the periodic dihedral and Ryckaert-Bellemans (RB) torsion.
+  summary: An open-source, transparent, and lightweight Python software package capable of fitting dihedrals with QM calculations for existing forces fields. This software fits the Optimized Potentials for Liquid Simulations (OPLS) style dihedrals, then also analytically converts them to the periodic dihedral and Ryckaert-Bellemans
+    (RB) torsion.
+  description: An open-source, transparent, and lightweight Python software package capable of fitting dihedrals with QM calculations for existing forces fields. This software fits the Optimized Potentials for Liquid Simulations (OPLS) style dihedrals, then also analytically converts them to the periodic dihedral and Ryckaert-Bellemans
+    (RB) torsion.
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -49,4 +51,3 @@ extra:
     - bc118
     - daico007
     - CalCraven
-    
