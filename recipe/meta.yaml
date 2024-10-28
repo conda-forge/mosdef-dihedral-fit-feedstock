@@ -27,7 +27,6 @@ requirements:
     - coverage
     - gsd =3.3.2
 
-
 test:
   imports:
     - mosdef_dihedral_fit
