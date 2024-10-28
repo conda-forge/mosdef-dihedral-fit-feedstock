@@ -25,6 +25,8 @@ requirements:
     - pytest
     - pytest-cov
     - coverage
+    - gsd =3.3.2
+
 
 test:
   imports:
