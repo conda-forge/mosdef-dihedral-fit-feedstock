@@ -1,5 +1,5 @@
 {% set name = "mosdef-dihedral-fit" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/GOMC-WSU/MoSDeF-dihedral-fit/archive/{{ version }}.tar.gz
-  sha256: fb5537f2cb31457cb398748536d3bf5a2bd9dbed1e919820241c7d741d12077d
+  sha256: f480edae8a154008a5d55a72ba4e5b21c046ff5e8366178050ef7413ce8cf7a3
 
 build:
   noarch: python
