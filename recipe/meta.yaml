@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python {{ python_max }}.*.*
     - pip
   run:
     - python >={{ python_min }},<{{ python_max }}.*.*
@@ -34,7 +34,7 @@ test:
     - mosdef_dihedral_fit
   requires:
     - pip
-    - python {{ python_min }}
+    - python {{ python_max }}.*.*
   commands:
     - pip check
 
