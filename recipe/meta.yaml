@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
     - pip
   run:
-    - python >={{ python_min }},<{{ python_max }}
+    - python >={{ python_min }},<{{ python_max }}.*.*
     - vmd-python
     - mosdef-gomc >=1.4.0
     - pytest
