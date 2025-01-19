@@ -1,5 +1,5 @@
 {% set python_min = '3.10' %}
-{% set python_max = '3.12' %}
+{% set python_max = '3.11' %}
 {% set name = "mosdef-dihedral-fit" %}
 {% set version = "0.1.13" %}
 
