@@ -1,5 +1,5 @@
 {% set python_min = '3.10' %}
-{% set python_max = '3.11.*' %}
+{% set python_max = '3.12' %}
 {% set name = "mosdef-dihedral-fit" %}
 {% set version = "0.1.13" %}
 
@@ -18,7 +18,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_max }}
+    - python {{ python_min }}
     - pip
   run:
     - python >={{ python_min }},<{{ python_max }}
@@ -34,7 +34,7 @@ test:
     - mosdef_dihedral_fit
   requires:
     - pip
-    - python {{ python_max }}
+    - python {{ python_min }}
   commands:
     - pip check
 
