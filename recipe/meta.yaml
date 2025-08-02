@@ -2,6 +2,7 @@
 {% set python_max = '3.12' %}
 {% set name = "mosdef-dihedral-fit" %}
 {% set version = "0.1.13" %}
+{% set build_number = "2" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +15,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: {{ build_number }}
 
 requirements:
   host:
@@ -24,7 +25,7 @@ requirements:
     - python >={{ python_min }},<{{ python_max }}
     - netcdf4
     - vmd-python
-    - mosdef-gomc >=1.4.0
+    - mosdef-gomc =1.4.0
     - pytest
     - pytest-cov
     - coverage
